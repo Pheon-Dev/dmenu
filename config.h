@@ -1,27 +1,3 @@
-/*  ____ _____  */
-/* |  _ \_   _|  Derek Taylor (DistroTube) */
-/* | | | || |  	http://www.youtube.com/c/DistroTube */
-/* | |_| || |  	http://www.gitlab.com/dwt1/ */
-/* |____/ |_|  	*/
-
-/* See LICENSE file for copyright and license details. */
-/* Default settings; can be overriden by command line. */
-/* Config was built with dmenu-flexipatch:             */
-/* https://github.com/bakkeby/dmenu-flexipatch         */
-
-/* The patches I have enabled are:   
-* - alpha
-* - border
-* - center
-* - fuzzyhighlight
-* - fuzzymatch
-* - grid
-* - lineheight
-* - morecolor
-* - mousesupport
-* - numbers
-* - XYW  */
-
 static int topbar = 1;            /* -b  option; if 0, dmenu appears at bottom */
 
 #if ALPHA_PATCH
